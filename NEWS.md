@@ -1,5 +1,7 @@
 # devtools 1.12.0.9000
 
+* Add encoding support in `test_dir()` call by adding reference to pkg$encoding (#1306, @hansharhoff)
+
 * Improve Git status checks used in `release()` (#1205, @krlmlr).
 
 * Various minor improvements around checking of reverse dependencies
