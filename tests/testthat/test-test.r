@@ -12,7 +12,3 @@ test_that("Package can be tested with testthat not on search path", {
   test("testTestWithDepends", reporter = "stop")
   expect_true(TRUE)
 })
-
-test_that("filtering works", {
-  expect_that(test(filter = "check"), prints_text("Check: Writing NAMESPACE\\n\\.\\.\\.\\."))
-})
